@@ -1,0 +1,72 @@
+article {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+}
+
+article section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+article .date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+article .body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+article input[type="text"],
+article textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+article textarea {
+    resize: vertical;
+}
+
+/* article button .delete {
+    background-color: red;
+} */
+
+
+article button {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+/* article button .update {
+    background-color: greenyellow;
+} */
+
+article button:hover {
+    background-color: #e0e0e0;
+}
+
+article button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
