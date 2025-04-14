@@ -4,7 +4,7 @@ import Article from "./Article"
 import ArticleEntry from "./ArticleEntry"
 import { fetchArticles, createArticle } from "../Services/articleService"
 import "./App.css"
-import { useAuthentication } from "../services/authService"
+import { useAuthentication } from "../Services/authService"
 import { Signin, SignOut } from "./Auth";
 
 

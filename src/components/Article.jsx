@@ -1,4 +1,4 @@
-import { deleteArticle, updateArticle } from '../services/articleService';
+import { deleteArticle, updateArticle } from '../Services/articleService';
 import { useState } from 'react';
 import './Article.css'
 

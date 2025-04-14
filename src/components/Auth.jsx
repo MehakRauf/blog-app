@@ -1,5 +1,5 @@
 import React from "react";
-import { login, logout, loggedInUserDisplayName } from "../services/authService";
+import { login, logout, loggedInUserDisplayName } from "../Services/authService";
 
 export function Signin() {
   return <button onClick={login}>Sign In</button>;
